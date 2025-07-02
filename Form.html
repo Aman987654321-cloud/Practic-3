@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+
+<!--Hear in body tag use inline CSS for for change background col"or -->
+<body>
+    <center>
+        
+        <H1>Railway registretion</H1>
+    </center>
+    <hr>
+
+<!-- <form> tag used to collect user data and send it server like login form,ticket booking-->
+    <form action="submit" method="post"></form>
+
+    <!-- <Lable>Tag is used to describe a form input so users know what to enter. Clicking the label selects or focuses the input-->
+    <label for="username"> Username: </label>
+
+    <!-- <input>Tag it's define what element come under form like (Date,Name,Phone,Age)-->
+    <input type="text" id="Username" name="username" placeholder="">
+
+    <div>
+        <label for="name">Father Name: </label>
+        <input type="text" id="Username" name="username">
+    </div>
+
+    <div>
+        <label for="name">Mother Name: </label>
+        <input type="text" name="name">
+    </div>
+
+    <div>
+        <label for="gender">Gender: </label>
+        <label for="male">male</label>
+       
+        <!-- <radio> type use when you want to select only one opttion from a set of choices.-->
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" value="female">
+    </div>
+    
+    <div>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" id="dob" name="dob">
+    </div>
+
+    <div>
+        <label for="phone">Phone Number: </label>
+        <input type="tel" id="phone" name="phone">
+    </div>
+
+              <!--For email-->
+     <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email">
+    </div>
+
+    <div>
+        <label for="address">Address: </label>
+        <input type="text" id="address" name="address">
+    </div>
+    
+    <!--Here i use select tag it's use to make dropdown list Each inside the select tag represents an item in the dropdown list-->
+    <div>
+        <label for="country">Country: </label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+        </select>
+    </div>
+
+
+    <!--Here i use Password it's use to make user password-->
+    <div>
+        <label for="password--">Enter Passward</label>
+        <input type="password" id="password" name="password">
+    </div>
+
+            <!--confirm Password-->
+    <div>
+        <label for="confirm-password">Confirm Password: </label>
+        <input type="password" id="confirm-password" name="confirm-password">
+    </div>
+<div>
+    
+    <!-- <submit> type used on a button or input to send (submit) the form data to the server when clicked. -->
+    <form action="submit">
+    <input type="submit" value="submit">
+
+    <!--button represents a clickable button-->
+    <button type="submit">Send</button>
+    </form>
+</div>
+</body>
+</html>
