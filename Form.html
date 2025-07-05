@@ -1,54 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Tag</title>
-</head>
-
-<!--Hear in body tag use inline CSS for for change background col"or -->
-<body>
+    </head>
+    <body>
     <center>
-        
-        <H1>Railway registretion</H1>
+    <H1>Railway registretion</H1>
     </center>
     <hr>
 
-<!-- <form> tag used to collect user data and send it server like login form,ticket booking-->
+   <!-- <form> tag used to collect user data and send it server like login form,ticket booking-->
+   <!--action attribute use for URL where data is send-->
     <form action="submit" method="post"></form>
 
-    <!-- <Lable>Tag is used to describe a form input so users know what to enter. Clicking the label selects or focuses the input-->
-    <label for="username"> Username: </label>
+   <!-- <Lable> Tag is used to describe a form input so users know what to enter. Clicking the label selects or focuses the     input-->
+   <label for="username"> Username: </label>
 
-    <!-- <input>Tag it's define what element come under form like (Date,Name,Phone,Age)-->
+    <!-- <input> Tag is define what element come under form like (Date,Name,Phone,Age)-->
     <input type="text" id="Username" name="username" placeholder="">
 
     <div>
-        <label for="name">Father Name: </label>
+        <label for="name"> Father Name: </label>
         <input type="text" id="Username" name="username">
     </div>
 
     <div>
-        <label for="name">Mother Name: </label>
+        <label for="name"> Mother Name: </label>
         <input type="text" name="name">
     </div>
 
     <div>
-        <label for="gender">Gender: </label>
-        <label for="male">male</label>
+        <label for="gender"> Gender: </label>
+        <label for="male"> male </label>
        
         <!-- <radio> type use when you want to select only one opttion from a set of choices.-->
         <input type="radio" id="male" name="gender" value="male">
-        <label for="female">female</label>
+        <label for="female"> female </label>
         <input type="radio" id="female" name="gender" value="female">
     </div>
-    
+    <!--date use for DOB-->
     <div>
-        <label for="dob">Date of Birth: </label>
+        <label for="dob"> Date of Birth: </label>
         <input type="date" id="dob" name="dob">
     </div>
 
+    <!--for phone no-->
     <div>
         <label for="phone">Phone Number: </label>
         <input type="tel" id="phone" name="phone">
@@ -65,14 +64,14 @@
         <input type="text" id="address" name="address">
     </div>
     
-    <!--Here i use select tag it's use to make dropdown list Each inside the select tag represents an item in the dropdown list-->
+    <!--<select> Tag is use to make dropdown list Each inside the select tag represents an item in the dropdown list-->
     <div>
-        <label for="country">Country: </label>
+        <label for="country"> Country: </label>
         <select id="country" name="country">
-            <option value="india">India</option>
-            <option value="usa">USA</option>
-            <option value="uk">UK</option>
-            <option value="canada">Canada</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
         </select>
     </div>
 
